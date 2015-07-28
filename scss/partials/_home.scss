@@ -1,0 +1,11 @@
+#page-buttons {
+    i {
+        transition: ease, 0.4s;
+        color: #000;
+        font-size: 75px;
+        
+        &:hover {
+            color: lighten(#000, 20%);
+        }
+    }
+}

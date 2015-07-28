@@ -21,3 +21,33 @@
         }
     }
 }
+
+#footer-nav {
+    height: 70px;
+    
+    ul {
+        text-align: center;
+        
+        li {
+            display: inline-block;
+            margin: 0 20px;
+            
+            a {
+                text-decoration: none;
+            } 
+        }
+    }
+    
+    i {
+        color: #000;
+        font-size: 25px;
+    }
+    
+    ul li:nth-child(even) i:hover {
+        transform: rotate(25deg);
+    }
+    
+    ul li:nth-child(odd) i:hover {
+        transform: rotate(-25deg);
+    }
+}

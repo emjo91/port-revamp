@@ -20,6 +20,30 @@
         padding: 10px 25px;
         text-decoration: none; }
 
+#footer-nav {
+  height: 70px; }
+  #footer-nav ul {
+    text-align: center; }
+    #footer-nav ul li {
+      display: inline-block;
+      margin: 0 20px; }
+      #footer-nav ul li a {
+        text-decoration: none; }
+  #footer-nav i {
+    color: #000;
+    font-size: 25px; }
+  #footer-nav ul li:nth-child(even) i:hover {
+    transform: rotate(25deg); }
+  #footer-nav ul li:nth-child(odd) i:hover {
+    transform: rotate(-25deg); }
+
+#page-buttons i {
+  transition: ease, 0.4s;
+  color: #000;
+  font-size: 75px; }
+  #page-buttons i:hover {
+    color: #333333; }
+
 /* Global */
 * {
   margin: 0;
@@ -27,6 +51,9 @@
 
 body {
   height: 100%; }
+
+i {
+  transition: ease, 0.4s; }
 
 /* Grid */
 
