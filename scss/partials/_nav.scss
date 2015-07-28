@@ -1,0 +1,23 @@
+#nav-menu {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: rgba(#fff, 0.9);
+    
+    ul {
+        margin: 0;
+        text-align: center;
+        
+        li {
+            display: inline-block;
+            margin: 0px 5px;
+            list-style: none;
+            
+            a {
+                padding: 10px 25px;
+                text-decoration: none;
+            }
+        }
+    }
+}
