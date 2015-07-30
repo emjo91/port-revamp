@@ -1,10 +1,19 @@
 /* Partials */
 #header {
   height: 100%;
-  background-color: #ccc; }
+  background-color: #8a7594; }
+  #header:after {
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    background-image: url("../images/test.svg"); }
 
 #nav-menu {
   position: fixed;
+  z-index: 2;
   right: 0;
   left: 0;
   height: 70px;
@@ -33,16 +42,24 @@
     color: #000;
     font-size: 25px; }
   #footer-nav ul li:nth-child(even) i:hover {
-    transform: rotate(25deg); }
+    transform: rotate(15deg); }
   #footer-nav ul li:nth-child(odd) i:hover {
-    transform: rotate(-25deg); }
+    transform: rotate(-15deg); }
 
 #page-buttons i {
   transition: ease, 0.4s;
   color: #000;
-  font-size: 75px; }
+  font-size: 120px; }
   #page-buttons i:hover {
-    color: #333333; }
+    color: #8a7594; }
+#page-buttons h3 {
+  margin-top: 15px; }
+#page-buttons .columns {
+  transition: ease, 0.8s;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #page-buttons .columns .content-area {
+    text-align: center; }
 
 /* Global */
 * {
@@ -56,5 +73,8 @@ i {
   transition: ease, 0.4s; }
 
 /* Grid */
+@media (min-width: 642px) {
+  #page-buttons i {
+    font-size: 75px; } }
 
 /*# sourceMappingURL=main.css.map */

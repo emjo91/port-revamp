@@ -2,10 +2,24 @@
     i {
         transition: ease, 0.4s;
         color: #000;
-        font-size: 75px;
+        font-size: 120px;
         
         &:hover {
-            color: lighten(#000, 20%);
+            color: #8a7594;
+        }
+    }
+    
+    h3 {
+        margin-top: 15px;
+    }
+    
+    .columns {
+        transition: ease, 0.8s;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        .content-area {
+            text-align: center;
         }
     }
 }
