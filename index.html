@@ -1,14 +1,22 @@
 <head>
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
     
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.css" type="text/css">
     
+    <!-- Foundation -->
     <link rel="stylesheet" href="css/foundation-5.5.2.custom/css/foundation.css" type="text/css" media="screen">
+    
+    <!-- jQuery -->    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="js/main.js"></script>
     
 </head>
 <body class="home">
 <header id="header">
-    <nav id="nav-menu">
+    <nav id="nav-menu" class="go-ghost">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
@@ -47,7 +55,7 @@
             <div class="columns small-12 medium-6 large-3">
                 <div class="content-area">
                     <a href="#"><i class="fa fa-motorcycle"></i></a>
-                    <h3>About Me</h3>
+                    <h3>About</h3>
                 </div>
             </div>
             <div class="columns small-12 medium-6 large-3">
@@ -64,14 +72,23 @@
             <div class="column">
                 <div class="content-area">
                     <form action="action_page.php">
-                    <p>Name:</p>
-                    <input type="text" name="firstname">
-                    <p>Email:</p>
-                    <input type="text" name="email">
-                    <p>Message</p>
-                    <textarea name="message"></textarea>
-                    <br />
-                    <input type="submit" value="Send">
+                        <div class="row">
+                            <div class="columns small-12 medium-6">
+                                <p>Name:</p>
+                                <input type="text" name="firstname">
+                            </div>
+                            <div class="columns small-12 medium-6">
+                                <p>Email:</p>
+                                <input type="text" name="email">
+                            </div>
+                            <div class="columns small-12">
+                                <p>Message</p>
+                                <textarea name="message"></textarea>
+                                
+                                <br />
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

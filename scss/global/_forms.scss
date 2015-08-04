@@ -1,0 +1,17 @@
+form {
+    input:not([type=submit]), textarea {
+        width: 100%;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        background-color: #ccc;
+    }
+    
+    input[type=text] {
+        
+    }
+    
+    textarea {
+        
+    }
+}

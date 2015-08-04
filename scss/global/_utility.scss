@@ -11,4 +11,10 @@ i {
     transition: ease, 0.4s;
 }
 
+.nav-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
+    -moz-box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
+    box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
+}
+
 /* Grid */

@@ -1,4 +1,5 @@
 #nav-menu {
+    @extend .nav-shadow;
     position: fixed;
     z-index: 2;
     right: 0;
@@ -14,6 +15,7 @@
             display: inline-block;
             margin: 0px 5px;
             list-style: none;
+            line-height: 70px;
             
             a {
                 padding: 10px 25px;
@@ -24,14 +26,14 @@
 }
 
 #footer-nav {
-    height: 70px;
+//    height: 70px;
     
     ul {
         text-align: center;
         
         li {
             display: inline-block;
-            margin: 0 20px;
+            margin: 40px 20px;
             
             a {
                 text-decoration: none;
