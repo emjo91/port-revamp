@@ -18,17 +18,21 @@
   left: 0;
   height: 70px;
   background-color: rgba(255, 255, 255, 0.9); }
-  #nav-menu ul {
-    margin: 0;
-    text-align: center; }
-    #nav-menu ul li {
-      display: inline-block;
-      margin: 0px 5px;
-      list-style: none;
-      line-height: 70px; }
-      #nav-menu ul li a {
-        padding: 10px 25px;
-        text-decoration: none; }
+  #nav-menu .links {
+    display: none; }
+    #nav-menu .links ul {
+      margin: 0;
+      text-align: right; }
+      #nav-menu .links ul li {
+        display: inline-block;
+        margin: 0px 5px;
+        list-style: none;
+        line-height: 70px; }
+        #nav-menu .links ul li:last-child a {
+          padding-right: 0; }
+        #nav-menu .links ul li a {
+          padding: 10px 25px;
+          text-decoration: none; }
 
 #footer-nav ul {
   text-align: center; }
@@ -83,14 +87,19 @@ i {
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2); }
 
 /* Grid */
-@media (min-width: 642px) {
+@media (min-width: 641px) {
   #page-buttons i {
-    font-size: 75px; } }
+    font-size: 75px; }
+
+  #nav-menu .links {
+    display: block; } }
 form input:not([type=submit]), form textarea {
   width: 100%;
   padding: 10px;
   border: 0;
   outline: 0;
   background-color: #ccc; }
+form textarea {
+  height: 130px; }
 
 /*# sourceMappingURL=main.css.map */

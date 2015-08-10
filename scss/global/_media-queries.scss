@@ -1,8 +1,32 @@
-@media (min-width: 642px) {
+// Small
+
+// Medium
+@media (min-width: 641px) {
     
     #page-buttons {
         i {
             font-size: 75px;
         }
     }
+    
+    #nav-menu {
+        .links {
+            display: block;
+        }
+    }
+}
+
+// Large
+@media (min-width: 1025px) {
+    
+}
+
+// xLarge
+@media (min-width: 1441px) {
+    
+}
+
+// xxLarge
+@media (min-width: 1921px) {
+    
 }
