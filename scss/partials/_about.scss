@@ -1,0 +1,32 @@
+.about {
+    .bar {
+        height: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
+    
+    h2 {
+        display: inline;
+    }
+    
+    i {
+        display: inline;
+        margin-right: 8px;
+        font-size: 25px;
+    }
+    
+    .content-area {
+        margin: 20px 0;
+        
+        i {
+            float: left;
+            margin-top: 9px;
+            font-size: 36px;
+        }
+        
+        .skills-content {
+            margin-left: 40px;
+        }
+    }
+}

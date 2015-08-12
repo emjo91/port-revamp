@@ -24,10 +24,32 @@
     }
 }
 
+#mission-statement {
+    i {
+        font-size: 25px;
+    }
+}
+
+h2 {
+    display: inline;
+}
+
+i {
+    display: inline;
+    margin-right: 8px;
+    font-size: 25px;
+}
+
 .go-ghost {
     display: none;
 }
 
 .expose {
     display: block;
+}
+
+.home, .about {
+    .row {
+        margin: 30px auto;
+    }
 }
