@@ -1,9 +1,13 @@
 .about {
+    #header {
+        height: 450px;
+    }
+    
     .bar {
         height: 10px;
         margin-bottom: 10px;
         border-radius: 10px;
-        background-color: black;
+        background-color: #1b94a2;
     }
     
     h2 {
@@ -13,6 +17,7 @@
     i {
         display: inline;
         margin-right: 8px;
+//        color: #666;
         font-size: 25px;
     }
     

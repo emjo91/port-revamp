@@ -5,7 +5,7 @@ $(document).ready(function() {
         
     // Fade in Navbar
     $window.scroll(function(){
-        if ($window.scrollTop() > $homeHeader.height()) {
+        if ($window.scrollTop() > $homeHeader.height() - $navMenu.height()) {
             $navMenu.addClass('expose').fadeIn();
             $navMenu.removeClass('go-ghost');
         } else {
