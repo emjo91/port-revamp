@@ -1,0 +1,36 @@
+.portfolio {
+    #header {
+        height: 450px;
+    }
+    
+    #design {
+        background-color: #ccc;
+    }
+    
+    section {
+        padding: 20px 0;
+        
+        a {
+            transition: 0.4s ease;
+        
+            &:hover {
+                color: #1b94a2;
+            }
+        }
+    }
+    
+    i {
+        margin-top: 20px;
+        transition: ease, 0.4s;
+        color: #000;
+        font-size: 120px;
+        
+        &:hover {
+            color: #1b94a2;
+        }
+    }
+    
+    h2 {
+        text-align: center;
+    }
+}

@@ -62,22 +62,24 @@
 #footer-nav ul li:nth-child(odd) i:hover {
   transform: rotate(-15deg); }
 
-#page-buttons {
+.home .page-buttons {
   background-color: #ccc; }
-  #page-buttons i {
-    transition: ease, 0.4s;
-    color: #000;
-    font-size: 120px; }
-    #page-buttons i:hover {
-      color: #1b94a2; }
-  #page-buttons h3 {
-    margin-top: 15px; }
-  #page-buttons .columns {
-    transition: ease, 0.8s;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    #page-buttons .columns .content-area {
-      text-align: center; }
+
+.page-buttons i {
+  transition: ease, 0.4s;
+  margin-top: 20px;
+  color: #000;
+  font-size: 120px; }
+  .page-buttons i:hover {
+    color: #1b94a2; }
+.page-buttons h3 {
+  margin-top: 15px; }
+.page-buttons .columns {
+  transition: ease, 0.8s;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .page-buttons .columns .content-area {
+    text-align: center; }
 
 #mission-statement i {
   font-size: 25px; }
@@ -104,7 +106,6 @@ i {
 .about .bar {
   height: 10px;
   margin-bottom: 10px;
-  border-radius: 10px;
   background-color: #1b94a2; }
 .about h2 {
   display: inline; }
@@ -120,6 +121,26 @@ i {
     font-size: 36px; }
   .about .content-area .skills-content {
     margin-left: 40px; }
+
+.portfolio #header {
+  height: 450px; }
+.portfolio #design {
+  background-color: #ccc; }
+.portfolio section {
+  padding: 20px 0; }
+  .portfolio section a {
+    transition: 0.4s ease; }
+    .portfolio section a:hover {
+      color: #1b94a2; }
+.portfolio i {
+  margin-top: 20px;
+  transition: ease, 0.4s;
+  color: #000;
+  font-size: 120px; }
+  .portfolio i:hover {
+    color: #1b94a2; }
+.portfolio h2 {
+  text-align: center; }
 
 /* Global */
 h1, h2, h3, h4, h5, h6, p, th, td, ul, li, a {
@@ -140,6 +161,20 @@ h1 {
   font-family: "Over the Rainbow", cursive;
   font-size: 42px;
   font-weight: normal; }
+
+h1.header, h1.greeting {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 55px;
+  font-weight: normal; }
+
+h1.header {
+  transform: translateY(250%);
+  text-align: center; }
+
+h1.greeting {
+  position: absolute; }
 
 * {
   margin: 0;
@@ -195,7 +230,7 @@ i {
   #header .guitar-guy {
     width: 60%; }
 
-  #page-buttons i {
+  .page-buttons i {
     font-size: 75px; }
 
   #nav-menu .links {
