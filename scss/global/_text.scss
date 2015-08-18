@@ -24,20 +24,36 @@ h1 {
 
 h1.header, h1.greeting {
     margin: 0;
-    padding: 0;
     color: #fff;
     font-size: 55px;
     font-weight: normal;
 }
 
 h1.header {
+    padding: 0;
     transform: translateY(250%);
     text-align: center;
 }
 
 h1.greeting {
     position: absolute;
-
+    left: 42%;
+    padding: 15px 60px;
+    transform: translateY(80%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-image: url("../images/stardust-blue.jpg");
+    
+    &:after {
+        content: ' ';
+        position: absolute;
+        top: 98px;
+        left: -56px;
+        width: 150px;
+        height: 74px;
+        background-image: url(../images/speech-bubble-tail.png);
+        background-repeat: no-repeat;
+    }
 }
 
 h2 {

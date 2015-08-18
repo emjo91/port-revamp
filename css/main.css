@@ -6,13 +6,14 @@
   #header .row {
     margin: 0 auto; }
   #header .guitar-guy {
-    transform: translateY(50%);
+    transform: translateY(70%);
     display: block;
     width: 100%;
     margin: 0 auto; }
 
 #footer {
-  background-color: #1b94a2; }
+  background-color: #1b94a2;
+  background-image: url("../images/stardust-blue.jpg"); }
   #footer .row:last-child {
     margin-bottom: 0; }
 
@@ -62,9 +63,6 @@
 #footer-nav ul li:nth-child(odd) i:hover {
   transform: rotate(-15deg); }
 
-.home .page-buttons {
-  background-color: #ccc; }
-
 .page-buttons i {
   transition: ease, 0.4s;
   margin-top: 20px;
@@ -107,12 +105,6 @@ i {
   height: 10px;
   margin-bottom: 10px;
   background-color: #1b94a2; }
-.about h2 {
-  display: inline; }
-.about i {
-  display: inline;
-  margin-right: 8px;
-  font-size: 25px; }
 .about .content-area {
   margin: 20px 0; }
   .about .content-area i {
@@ -121,11 +113,24 @@ i {
     font-size: 36px; }
   .about .content-area .skills-content {
     margin-left: 40px; }
+.about i {
+  display: inline;
+  margin-right: 8px;
+  font-size: 25px; }
+.about h2 {
+  display: inline; }
+.about p a {
+  transition: 0.4s ease; }
+  .about p a:hover {
+    color: #1b94a2; }
 
 .portfolio #header {
   height: 450px; }
 .portfolio #design {
   background-color: #ccc; }
+.portfolio .portfolio-images {
+  margin-top: 25px;
+  border: 1px solid #ddd; }
 .portfolio section {
   padding: 20px 0; }
   .portfolio section a {
@@ -164,17 +169,32 @@ h1 {
 
 h1.header, h1.greeting {
   margin: 0;
-  padding: 0;
   color: #fff;
   font-size: 55px;
   font-weight: normal; }
 
 h1.header {
+  padding: 0;
   transform: translateY(250%);
   text-align: center; }
 
 h1.greeting {
-  position: absolute; }
+  position: absolute;
+  left: 42%;
+  padding: 15px 60px;
+  transform: translateY(80%);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-image: url("../images/stardust-blue.jpg"); }
+  h1.greeting:after {
+    content: ' ';
+    position: absolute;
+    top: 98px;
+    left: -56px;
+    width: 150px;
+    height: 74px;
+    background-image: url(../images/speech-bubble-tail.png);
+    background-repeat: no-repeat; }
 
 * {
   margin: 0;
@@ -240,7 +260,9 @@ form input:not([type=submit]), form textarea {
   padding: 10px;
   border: 0;
   outline: 0;
-  background-color: #ccc; }
+  background-color: #ccc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
 form textarea {
   height: 130px; }
 

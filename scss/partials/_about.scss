@@ -9,17 +9,6 @@
         background-color: #1b94a2;
     }
     
-    h2 {
-        display: inline;
-    }
-    
-    i {
-        display: inline;
-        margin-right: 8px;
-//        color: #666;
-        font-size: 25px;
-    }
-    
     .content-area {
         margin: 20px 0;
         
@@ -31,6 +20,27 @@
         
         .skills-content {
             margin-left: 40px;
+        }
+    }
+    
+    i {
+        display: inline;
+        margin-right: 8px;
+//        color: #666;
+        font-size: 25px;
+    }
+    
+    h2 {
+        display: inline;
+    }
+    
+    p {
+        a {
+            transition: 0.4s ease;
+    
+            &:hover {
+                color: #1b94a2;
+            }
         }
     }
 }
