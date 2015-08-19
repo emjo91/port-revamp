@@ -1,8 +1,24 @@
-// Small
+@media (min-width: 565px) {
+    #header {
+        #nav-menu {
+            h1.header-nav {
+                margin-top: 0;
+                font-size: 42px;
+            }
+        }
+    }
+}
 
 // Medium
 @media (min-width: 641px) {
     #header {
+        #nav-menu {
+            h1.header-nav {
+                margin-top: 13px;
+                font-size: 30px;
+            }
+        }
+        
         .guitar-guy {
             width: 60%;
         }
@@ -17,6 +33,32 @@
     #nav-menu {
         .links {
             display: block;
+        }
+    }
+}
+
+// custom
+
+@media (min-width: 860px) {
+    #header {
+        #nav-menu {
+            h1.header-nav {
+                margin-top: 0;
+                font-size: 42px;
+            }
+        
+            .links {
+                ul {
+                    li {
+                        margin: 0px 25px;
+                    
+                        a {
+                            padding: 19px 0px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

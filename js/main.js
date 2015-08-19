@@ -25,4 +25,23 @@ $(document).ready(function() {
         $(this).removeClass('fa-spin');
     });
     
+    // Width for bars on About page
+    var $bar = $('.about .bar');
+    
+    $window.scroll(function(){
+        if ($window.scrollTop() > 120) {
+            $bar.eq(0).addClass('width-90');
+            $bar.eq(1).addClass('width-50');
+            $bar.eq(2).addClass('width-50');
+            $bar.eq(3).addClass('width-70');
+            $bar.eq(4).addClass('width-90');
+            $bar.eq(5).addClass('width-10');
+            $bar.removeClass('width-20');
+        }
+    });
+    
+    console.log($window.scrollTop()); //210 seems ideal
+    console.log($bar);
+    console.log( $bar.eq(2) );
+    
 });

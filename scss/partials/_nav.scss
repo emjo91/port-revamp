@@ -10,6 +10,13 @@
     h1 {
         margin: 4px 0;
     }
+    
+    h1.header-nav {
+        transition: 0.4s ease;
+        margin-top: 18px;
+        font-size: 24px;
+    }
+    
     a {
         text-decoration: none;
     }
@@ -23,7 +30,7 @@
         
             li {
                 display: inline-block;
-                margin: 0px 25px;
+                margin: 0px 20px;
                 list-style: none;
                 line-height: 70px;
                 
@@ -36,7 +43,8 @@
                 }
             
                 a {
-                    padding: 19px 0px;
+                    padding: 21px 0px;
+                    font-size: 14px;
                     
                     &:hover {
                         border-bottom: 5px solid #1b94a2;

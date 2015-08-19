@@ -26,6 +26,10 @@
   background-color: rgba(255, 255, 255, 0.9); }
   #nav-menu h1 {
     margin: 4px 0; }
+  #nav-menu h1.header-nav {
+    transition: 0.4s ease;
+    margin-top: 18px;
+    font-size: 24px; }
   #nav-menu a {
     text-decoration: none; }
   #nav-menu .links {
@@ -35,7 +39,7 @@
       text-align: right; }
       #nav-menu .links ul li {
         display: inline-block;
-        margin: 0px 25px;
+        margin: 0px 20px;
         list-style: none;
         line-height: 70px; }
         #nav-menu .links ul lilast-child {
@@ -43,7 +47,8 @@
         #nav-menu .links ul li:last-child a {
           padding-right: 0; }
         #nav-menu .links ul li a {
-          padding: 19px 0px; }
+          padding: 21px 0px;
+          font-size: 14px; }
           #nav-menu .links ul li a:hover {
             border-bottom: 5px solid #1b94a2;
             color: #1b94a2; }
@@ -102,6 +107,7 @@ i {
 .about #header {
   height: 450px; }
 .about .bar {
+  transition: 1.5s ease;
   height: 10px;
   margin-bottom: 10px;
   background-color: #1b94a2; }
@@ -189,10 +195,10 @@ h1.greeting {
   h1.greeting:after {
     content: ' ';
     position: absolute;
-    top: 98px;
-    left: -56px;
-    width: 150px;
-    height: 74px;
+    top: 110px;
+    left: -38px;
+    width: 180px;
+    height: 80px;
     background-image: url(../images/speech-bubble-tail.png);
     background-repeat: no-repeat; }
 
@@ -246,7 +252,14 @@ i {
   width: 10%; }
 
 /* Grid */
+@media (min-width: 565px) {
+  #header #nav-menu h1.header-nav {
+    margin-top: 0;
+    font-size: 42px; } }
 @media (min-width: 641px) {
+  #header #nav-menu h1.header-nav {
+    margin-top: 13px;
+    font-size: 30px; }
   #header .guitar-guy {
     width: 60%; }
 
@@ -255,6 +268,15 @@ i {
 
   #nav-menu .links {
     display: block; } }
+@media (min-width: 860px) {
+  #header #nav-menu h1.header-nav {
+    margin-top: 0;
+    font-size: 42px; }
+  #header #nav-menu .links ul li {
+    margin: 0px 25px; }
+    #header #nav-menu .links ul li a {
+      padding: 19px 0px;
+      font-size: 16px; } }
 form input:not([type=submit]), form textarea {
   width: 100%;
   padding: 10px;
