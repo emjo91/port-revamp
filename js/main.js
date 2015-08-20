@@ -40,8 +40,4 @@ $(document).ready(function() {
         }
     });
     
-    console.log($window.scrollTop()); //210 seems ideal
-    console.log($bar);
-    console.log( $bar.eq(2) );
-    
 });
