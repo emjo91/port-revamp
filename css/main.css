@@ -287,5 +287,17 @@ form input:not([type=submit]), form textarea {
   font-size: 14px; }
 form textarea {
   height: 130px; }
+form input[type=submit] {
+  transition: 0.4s ease;
+  float: right;
+  margin-top: 25px;
+  padding: 10px 30px;
+  border: 0;
+  background-color: #ccc;
+  font-family: "Open Sans";
+  font-size: 14px; }
+  form input[type=submit]:hover {
+    background-color: #1b94a2;
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

@@ -16,4 +16,20 @@ form {
     textarea {
         height: 130px;
     }
+    
+    input[type=submit] {
+        transition: 0.4s ease;
+        float: right;
+        margin-top: 25px;
+        padding: 10px 30px;
+        border: 0;
+        background-color: #ccc;
+        font-family: "Open Sans";
+        font-size: 14px;
+        
+        &:hover {
+            background-color: #1b94a2;
+            color: #fff;
+        }
+    }
 }

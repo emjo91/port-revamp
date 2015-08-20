@@ -40,4 +40,11 @@ $(document).ready(function() {
         }
     });
     
+    //Go to object
+    $('#nav-menu a, .page-buttons a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 900);
+        return false;
+    });
 });
