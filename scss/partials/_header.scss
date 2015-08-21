@@ -19,6 +19,8 @@
     
     .guitar-guy {
         transform: translateY(70%);
+        -webkit-transform: translateY(70%);
+        -ms-transform: translateY(70%);
         display: block;
         width: 100%;
         margin: 0 auto;

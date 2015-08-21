@@ -41,7 +41,10 @@
                 &:last-child a {
                     padding-right: 0;
                 }
-            
+                .current {
+                    border-bottom: 5px solid #1b94a2;
+                    color: #1b94a2;
+                }
                 a {
                     padding: 21px 0px;
                     font-size: 14px;
@@ -58,30 +61,34 @@
 
 #footer-nav {
 //    height: 70px;
-    
+
     ul {
         text-align: center;
-        
+    
         li {
             display: inline-block;
             margin: 40px 20px;
-            
+        
             a {
                 text-decoration: none;
             } 
         }
     }
-    
+
     i {
         color: #fff;
         font-size: 25px;
     }
-    
+
     ul li:nth-child(even) i:hover {
         transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
     }
-    
+
     ul li:nth-child(odd) i:hover {
         transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
     }
 }

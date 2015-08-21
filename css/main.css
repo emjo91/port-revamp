@@ -7,6 +7,8 @@
     margin: 0 auto; }
   #header .guitar-guy {
     transform: translateY(70%);
+    -webkit-transform: translateY(70%);
+    -ms-transform: translateY(70%);
     display: block;
     width: 100%;
     margin: 0 auto; }
@@ -46,6 +48,9 @@
           margin-left: 0; }
         #nav-menu .links ul li:last-child a {
           padding-right: 0; }
+        #nav-menu .links ul li .current {
+          border-bottom: 5px solid #1b94a2;
+          color: #1b94a2; }
         #nav-menu .links ul li a {
           padding: 21px 0px;
           font-size: 14px; }
@@ -64,9 +69,13 @@
   color: #fff;
   font-size: 25px; }
 #footer-nav ul li:nth-child(even) i:hover {
-  transform: rotate(15deg); }
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg); }
 #footer-nav ul li:nth-child(odd) i:hover {
-  transform: rotate(-15deg); }
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg); }
 
 .page-buttons i {
   transition: ease, 0.4s;
@@ -111,6 +120,8 @@ i {
   height: 10px;
   margin-bottom: 10px;
   background-color: #1b94a2; }
+.about .skills-section a {
+  text-decoration: none; }
 .about .content-area {
   margin: 20px 0; }
   .about .content-area i {
@@ -119,10 +130,6 @@ i {
     font-size: 36px; }
   .about .content-area .skills-content {
     margin-left: 40px; }
-.about i {
-  display: inline;
-  margin-right: 8px;
-  font-size: 25px; }
 .about h2 {
   display: inline; }
 .about p a {
@@ -182,6 +189,8 @@ h1.header, h1.greeting {
 h1.header {
   padding: 0;
   transform: translateY(250%);
+  -webkit-transform: translateY(250%);
+  -ms-transform: translateY(250%);
   text-align: center; }
 
 h1.greeting {
@@ -189,6 +198,8 @@ h1.greeting {
   left: 42%;
   padding: 15px 60px;
   transform: translateY(80%);
+  -webkit-transform: translateY(80%);
+  -ms-transform: translateY(80%);
   border: 2px solid #fff;
   border-radius: 50%;
   background-image: url("../images/stardust-blue.jpg"); }
@@ -252,23 +263,40 @@ i {
   width: 10%; }
 
 /* Grid */
-@media (min-width: 565px) {
+@media screen and (min-width: 400px) {
+  #header .guitar-guy {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%); } }
+@media screen and (min-width: 565px) {
+  #header .guitar-guy {
+    transform: translateY(60%);
+    -webkit-transform: translateY(60%);
+    -ms-transform: translateY(60%); }
   #header #nav-menu h1.header-nav {
     margin-top: 0;
     font-size: 42px; } }
-@media (min-width: 641px) {
+@media screen and (min-width: 641px) {
   #header #nav-menu h1.header-nav {
     margin-top: 13px;
     font-size: 30px; }
   #header .guitar-guy {
-    width: 60%; }
+    width: 60%;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%); }
 
   .page-buttons i {
     font-size: 75px; }
 
   #nav-menu .links {
     display: block; } }
-@media (min-width: 860px) {
+@media screen and (min-width: 825px) {
+  #header .guitar-guy {
+    transform: translateY(70%);
+    -webkit-transform: translateY(70%);
+    -ms-transform: translateY(70%); } }
+@media screen and (min-width: 860px) {
   #header #nav-menu h1.header-nav {
     margin-top: 0;
     font-size: 42px; }

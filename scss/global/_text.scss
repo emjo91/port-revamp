@@ -32,6 +32,8 @@ h1.header, h1.greeting {
 h1.header {
     padding: 0;
     transform: translateY(250%);
+    -webkit-transform: translateY(250%);
+    -ms-transform: translateY(250%);
     text-align: center;
 }
 
@@ -40,6 +42,8 @@ h1.greeting {
     left: 42%;
     padding: 15px 60px;
     transform: translateY(80%);
+    -webkit-transform: translateY(80%);
+    -ms-transform: translateY(80%);
     border: 2px solid #fff;
     border-radius: 50%;
     background-image: url("../images/stardust-blue.jpg");

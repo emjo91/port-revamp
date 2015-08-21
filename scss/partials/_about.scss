@@ -10,6 +10,12 @@
         background-color: #1b94a2;
     }
     
+    .skills-section {
+        a {
+            text-decoration: none;
+        }
+    }
+    
     .content-area {
         margin: 20px 0;
         
@@ -22,13 +28,6 @@
         .skills-content {
             margin-left: 40px;
         }
-    }
-    
-    i {
-        display: inline;
-        margin-right: 8px;
-//        color: #666;
-        font-size: 25px;
     }
     
     h2 {
