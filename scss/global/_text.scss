@@ -22,18 +22,8 @@ h1 {
     font-weight: normal;
 }
 
-h1.header, h1.greeting {
-    margin: 0;
-    color: #fff;
-    font-size: 55px;
-    font-weight: normal;
-}
-
 h1.header {
     padding: 0;
-    transform: translateY(250%);
-    -webkit-transform: translateY(250%);
-    -ms-transform: translateY(250%);
     text-align: center;
 }
 
@@ -58,6 +48,13 @@ h1.greeting {
         background-image: url(../images/speech-bubble-tail.png);
         background-repeat: no-repeat;
     }
+}
+
+h1.header, h1.greeting {
+    margin: 0;
+    color: #fff;
+    font-size: 55px;
+    font-weight: normal;
 }
 
 h2 {

@@ -1,17 +1,22 @@
 /* Partials */
 #header {
-  height: 100%;
   background-image: url("../images/stardust-blue.jpg");
   background-color: #1b94a2; }
   #header .row {
     margin: 0 auto; }
   #header .guitar-guy {
-    transform: translateY(70%);
-    -webkit-transform: translateY(70%);
-    -ms-transform: translateY(70%);
+    transform: translateY(130%);
+    -webkit-transform: translateY(130%);
+    -ms-transform: translateY(130%);
     display: block;
     width: 100%;
     margin: 0 auto; }
+
+.about #header, .portfolio #header {
+  display: table; }
+  .about #header .secondary-header, .portfolio #header .secondary-header {
+    display: table-cell;
+    vertical-align: middle; }
 
 #footer {
   background-color: #1b94a2;
@@ -29,7 +34,6 @@
   #nav-menu h1 {
     margin: 4px 0; }
   #nav-menu h1.header-nav {
-    transition: 0.4s ease;
     margin-top: 18px;
     font-size: 24px; }
   #nav-menu a {
@@ -76,6 +80,9 @@
   transform: rotate(-15deg);
   -webkit-transform: rotate(-15deg);
   -ms-transform: rotate(-15deg); }
+
+.home #header {
+  min-height: 100%; }
 
 .page-buttons i {
   transition: ease, 0.4s;
@@ -180,17 +187,8 @@ h1 {
   font-size: 42px;
   font-weight: normal; }
 
-h1.header, h1.greeting {
-  margin: 0;
-  color: #fff;
-  font-size: 55px;
-  font-weight: normal; }
-
 h1.header {
   padding: 0;
-  transform: translateY(250%);
-  -webkit-transform: translateY(250%);
-  -ms-transform: translateY(250%);
   text-align: center; }
 
 h1.greeting {
@@ -212,6 +210,12 @@ h1.greeting {
     height: 80px;
     background-image: url(../images/speech-bubble-tail.png);
     background-repeat: no-repeat; }
+
+h1.header, h1.greeting {
+  margin: 0;
+  color: #fff;
+  font-size: 55px;
+  font-weight: normal; }
 
 * {
   margin: 0;

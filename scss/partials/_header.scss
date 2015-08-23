@@ -1,5 +1,4 @@
 #header {
-    height: 100%;
     background-image: url('../images/stardust-blue.jpg');
     background-color: #1b94a2;
     
@@ -18,11 +17,22 @@
     }
     
     .guitar-guy {
-        transform: translateY(70%);
-        -webkit-transform: translateY(70%);
-        -ms-transform: translateY(70%);
+        transform: translateY(130%);
+        -webkit-transform: translateY(130%);
+        -ms-transform: translateY(130%);
         display: block;
         width: 100%;
         margin: 0 auto;
+    }
+}
+
+.about, .portfolio {
+    #header {
+        display: table;
+        
+        .secondary-header {
+            display: table-cell; 
+            vertical-align: middle; 
+        }
     }
 }
