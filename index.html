@@ -1,4 +1,6 @@
 <head>
+    <title>Home</title>
+    
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
     
@@ -19,6 +21,22 @@
     
     <script type="text/javascript" src="js/main.js"></script>
     
+    <!-- DL Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="css/dl-menu/css/component.css" />
+    
+    <!-- Modernizer -->
+    <script src="js/dl-js/modernizr.custom.js"></script>
+    
+    <!-- DL Menu jQuery -->
+    <script src="js/dl-js/jquery.dlmenu.js"></script>
+    
+    <!-- DL Menu Plugin Call -->
+    <script>
+    $(function() {
+      $( '#dl-menu' ).dlmenu();
+    });
+    </script>
+    
     <!-- View Ports -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -30,13 +48,27 @@
             <div class="logo columns small-6 medium-4">
                 <a href="index.html"><h1 class="header-nav">Emily Johnson</h1></a>
             </div>
-            <div class="links columns small-6 medium-8">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#connect">Connect</a></li>
-                </ul>
+            <div class="columns small-6 medium-8">
+                <!-- Testing DL Menu -->
+                <div id="dl-menu" class="dl-menuwrapper">
+                    <button>Open <a href="http://www.jqueryscript.net/menu/">Menu</a></button>
+                    <ul class="dl-menu">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Portfolio</a></li>
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#">Connect</a></li>
+                    </ul>
+                </div>
+                <!-- End Test DL Menu -->
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#connect">Connect</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="row">
