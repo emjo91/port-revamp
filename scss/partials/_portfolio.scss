@@ -24,13 +24,15 @@
         }
     }
     
-    i {
-        transition: ease, 0.4s;
-        color: #000;
-        font-size: 120px;
+    .page-buttons {
+        i {
+            transition: ease, 0.4s;
+            color: #000;
+            font-size: 120px;
         
-        &:hover {
-            color: #1b94a2;
+            &:hover {
+                color: #1b94a2;
+            }
         }
     }
     

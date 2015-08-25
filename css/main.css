@@ -160,11 +160,11 @@ i {
     transition: 0.4s ease; }
     .portfolio section a:hover {
       color: #1b94a2; }
-.portfolio i {
+.portfolio .page-buttons i {
   transition: ease, 0.4s;
   color: #000;
   font-size: 120px; }
-  .portfolio i:hover {
+  .portfolio .page-buttons i:hover {
     color: #1b94a2; }
 .portfolio h2 {
   text-align: center; }
@@ -340,7 +340,7 @@ i {
     font-size: 45px;
     line-height: 90px; }
 
-  .portfolio i {
+  .portfolio .page-buttons i {
     margin-top: 20px;
     font-size: 90px; }
 
