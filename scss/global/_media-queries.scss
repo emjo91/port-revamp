@@ -57,6 +57,10 @@
 // Medium
 @media screen and (min-width: 641px) {
     #header {
+        #dl-menu {
+            display: none;
+        }
+        
         #nav-menu {
             h1.header-nav {
                 margin-top: 13px;
@@ -72,9 +76,14 @@
         }
     }
     
-    .page-buttons {
-        i {
-            font-size: 75px;
+    .home {
+        .page-buttons {
+            i {
+                width: 90px;
+                height: 90px;
+                font-size: 45px;
+                line-height: 90px;
+            }
         }
     }
     
@@ -108,7 +117,7 @@
             .links {
                 ul {
                     li {
-                        margin: 0px 25px;
+                        margin: -12px 25px 0 25px;
                     
                         a {
                             padding: 19px 0px;

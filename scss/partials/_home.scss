@@ -1,6 +1,21 @@
 .home {
     .page-buttons {
-//        background-color: #ccc;
+        i {
+            width: 180px;
+            height: 180px;
+            border: 2px solid transparent;
+            background-color: #1b94a2;
+            color: #fff;
+            font-size: 90px;
+            line-height: 180px;
+        
+            &:hover {
+                border-radius: 50%;
+                border: 2px solid #1b94a2;
+                background-color: #fff;
+                color: #1b94a2;
+            }
+        }
     }
     
     #header {
@@ -9,18 +24,11 @@
     }
 }
 
+.right-side-bar {
+    margin: 12px 0;
+}
+
 .page-buttons {
-    i {
-        transition: ease, 0.4s;
-        margin-top: 20px;
-        color: #000;
-        font-size: 120px;
-        
-        &:hover {
-            color: #1b94a2;
-        }
-    }
-    
     h3 {
         margin-top: 15px;
     }
