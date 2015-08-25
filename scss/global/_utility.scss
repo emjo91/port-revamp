@@ -11,23 +11,37 @@ i {
     transition: ease, 0.4s;
 }
 
+.row {
+    i {
+        font-size: 25px;
+    }
+}
+
 .nav-shadow {
     -webkit-box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
     box-shadow: 0 8px 6px -6px rgba(#000, 0.2);
 }
 
+.page-buttons {
+    h3 {
+        margin-top: 15px;
+    }
+    
+    .columns {
+        transition: ease, 0.8s;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+        .content-area {
+            text-align: center;
+        }
+    }
+}
+
 .clear {
     clear: both;
 }
-
-//@for $i from 1 through 10 {
-//    $width: 10px * $1
-//
-//    .col-#{$i} {
-//        width: $width;
-//    }
-//}
 
 /* Bar Widths */
 

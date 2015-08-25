@@ -101,15 +101,6 @@
 .right-side-bar {
   margin: 12px 0; }
 
-.page-buttons h3 {
-  margin-top: 15px; }
-.page-buttons .columns {
-  transition: ease, 0.8s;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-  .page-buttons .columns .content-area {
-    text-align: center; }
-
 #mission-statement i {
   font-size: 25px; }
 
@@ -132,6 +123,8 @@ i {
 
 .about #header {
   height: 450px; }
+.about .page-buttons i {
+  font-size: 42px; }
 .about .bar {
   transition: 1.5s ease;
   height: 10px;
@@ -240,10 +233,22 @@ body {
 i {
   transition: ease, 0.4s; }
 
+.row i {
+  font-size: 25px; }
+
 .nav-shadow, #nav-menu {
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2); }
+
+.page-buttons h3 {
+  margin-top: 15px; }
+.page-buttons .columns {
+  transition: ease, 0.8s;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .page-buttons .columns .content-area {
+    text-align: center; }
 
 .clear {
   clear: both; }
@@ -334,6 +339,10 @@ i {
     height: 90px;
     font-size: 45px;
     line-height: 90px; }
+
+  .portfolio i {
+    margin-top: 20px;
+    font-size: 90px; }
 
   #nav-menu .links {
     display: block; } }
