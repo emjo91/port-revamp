@@ -32,6 +32,13 @@
     i {
         font-size: 25px;
     }
+    
+    a {
+        transition: 0.4s ease;
+        &:hover {
+            color: #1b94a2;
+        }
+    }
 }
 
 h2 {

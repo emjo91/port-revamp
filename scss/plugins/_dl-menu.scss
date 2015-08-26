@@ -1,7 +1,20 @@
-.dl-menuwrapper button {
-    float: right;
-}
+#header {
+    .dl-menuwrapper button {
+        transition: 0.4s ease;
+        float: right;
+    
+        &:hover {
+            background: #1b94a2;
+        }
+    }
 
-.dl-menuwrapper .dl-menu.dl-menuopen {
-    margin: 50px 0 0 0;
+    .dl-menuwrapper .dl-menu.dl-menuopen {
+        margin: 50px 0 0 0;
+    }
+    
+    .dl-menuwrapper li a {
+        &:hover {
+            background: rgba(#1b94a2, 0.7);
+        }
+    }
 }

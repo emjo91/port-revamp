@@ -29,10 +29,11 @@
 .about, .portfolio {
     #header {
         display: table;
+        width: 100%;
         
         .secondary-header {
             display: table-cell; 
-            vertical-align: middle; 
+            vertical-align: middle;
         }
     }
 }

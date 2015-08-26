@@ -13,7 +13,8 @@
     margin: 0 auto; }
 
 .about #header, .portfolio #header {
-  display: table; }
+  display: table;
+  width: 100%; }
   .about #header .secondary-header, .portfolio #header .secondary-header {
     display: table-cell;
     vertical-align: middle; }
@@ -103,6 +104,10 @@
 
 #mission-statement i {
   font-size: 25px; }
+#mission-statement a {
+  transition: 0.4s ease; }
+  #mission-statement a:hover {
+    color: #1b94a2; }
 
 h2 {
   display: inline; }
@@ -385,10 +390,14 @@ form input[type=submit] {
     color: #fff; }
 
 /* Plugins */
-.dl-menuwrapper button {
+#header .dl-menuwrapper button {
+  transition: 0.4s ease;
   float: right; }
-
-.dl-menuwrapper .dl-menu.dl-menuopen {
+  #header .dl-menuwrapper button:hover {
+    background: #1b94a2; }
+#header .dl-menuwrapper .dl-menu.dl-menuopen {
   margin: 50px 0 0 0; }
+#header .dl-menuwrapper li a:hover {
+  background: rgba(27, 148, 162, 0.7); }
 
 /*# sourceMappingURL=main.css.map */
