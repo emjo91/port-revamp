@@ -29,7 +29,7 @@ $(document).ready(function() {
     var $bar = $('.about .bar');
     
     $window.scroll(function(){
-        if ($window.scrollTop() > 120) {
+        if ($window.scrollTop() > 1) {
             $bar.eq(0).addClass('width-90');
             $bar.eq(1).addClass('width-50');
             $bar.eq(2).addClass('width-50');
@@ -40,11 +40,32 @@ $(document).ready(function() {
         }
     });
     
-    //Go to object
+    // Go to object
     $('#nav-menu a, .page-buttons a').click(function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top - 70
         }, 1000);
         return false;
     });
+    
+    // Speech Bubble Sizing & Time of day Calculator
+    var $speechBubbleText = $('#header h1.greeting'),
+        $currentTime = new Date().getHours();
+    
+    // console.log($currentTime);
+    
+    if ($currentTime >= 1 && $currentTime <= 11) {
+        $speechBubbleText.html('mornin,');
+    } else if ($currentTime >= 17 && $currentTime <= 19) {
+        $speechBubbleText.html('evening,');
+    }
+    
+    // console.log($speechBubbleText.text().length);
+    
+    //This will be a function that determines the height of the body of the page....then will determine if it should use the scroll animated bar widths. It will do this by calculating the position of the footer...this way it's fluid.
+    var $aboutFooter = $('.about #footer');
+    
+    console.log($aboutFooter.position().top);
+    console.log($window.height());
+    
 });

@@ -37,7 +37,12 @@
     }
 }
 
+//TODO fix the padding here...
 @media screen and (min-width: 565px) {
+    h1.greeting {
+        padding: 15px 60px;
+    }
+    
     #header {
         .guitar-guy {
             transform: translateY(60%);

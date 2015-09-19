@@ -320,6 +320,9 @@ i {
       background-image: url(../images/speech-bubble-tail.png);
       background-repeat: no-repeat; } }
 @media screen and (min-width: 565px) {
+  h1.greeting {
+    padding: 15px 60px; }
+
   #header .guitar-guy {
     transform: translateY(60%);
     -webkit-transform: translateY(60%);
