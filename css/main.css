@@ -196,6 +196,7 @@ h1 {
 
 h1.header {
   padding: 0;
+  color: #fff;
   text-align: center;
   font-size: 55px; }
 
@@ -208,24 +209,21 @@ h1.greeting {
   -ms-transform: translateY(120%);
   border: 2px solid #fff;
   border-radius: 50%;
-  background-image: url("../images/stardust-blue.jpg");
+  background-color: #fff;
+  color: #1b94a2;
   font-size: 40px; }
   h1.greeting:after {
     content: ' ';
     position: absolute;
-    top: 92px;
-    left: -50px;
+    top: 85px;
+    left: 100px;
     width: 180px;
     height: 80px;
-    transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    background-image: url(../images/speech-bubble-tail.png);
+    background-image: url(../images/small-tail.svg);
     background-repeat: no-repeat; }
 
 h1.header, h1.greeting {
   margin: 0;
-  color: #fff;
   font-weight: normal; }
 
 * {
@@ -305,19 +303,18 @@ i {
     -ms-transform: translateY(80%);
     border: 2px solid #fff;
     border-radius: 50%;
-    background-image: url("../images/stardust-blue.jpg");
     font-size: 55px; }
     h1.greeting:after {
       content: ' ';
       position: absolute;
       top: 110px;
-      left: -38px;
+      left: 110px;
       width: 180px;
       height: 80px;
       transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
-      background-image: url(../images/speech-bubble-tail.png);
+      background-image: url(../images/small-tail.svg);
       background-repeat: no-repeat; } }
 @media screen and (min-width: 565px) {
   h1.greeting {

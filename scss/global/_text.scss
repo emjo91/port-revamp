@@ -24,6 +24,7 @@ h1 {
 
 h1.header {
     padding: 0;
+    color: #fff;
     text-align: center;
     font-size: 55px;
 }
@@ -37,27 +38,28 @@ h1.greeting {
     -ms-transform: translateY(120%);
     border: 2px solid #fff;
     border-radius: 50%;
-    background-image: url("../images/stardust-blue.jpg");
+//    background-image: url("../images/stardust-blue.jpg");
+    background-color: #fff;
+    color: #1b94a2;
     font-size: 40px;
     
     &:after {
         content: ' ';
         position: absolute;
-        top: 92px;
-        left: -50px;
+        top: 85px;
+        left: 100px;
         width: 180px;
         height: 80px;
-        transform: rotate(-3deg);
-        -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-        background-image: url(../images/speech-bubble-tail.png);
+//        transform: rotate(-3deg);
+//        -webkit-transform: rotate(-3deg);
+//        -ms-transform: rotate(-3deg);
+        background-image: url(../images/small-tail.svg);
         background-repeat: no-repeat;
     }
 }
 
 h1.header, h1.greeting {
     margin: 0;
-    color: #fff;
     font-weight: normal;
 }
 
