@@ -209,6 +209,7 @@ h1.greeting {
   -ms-transform: translateY(120%);
   border: 2px solid #fff;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px #0b3942;
   background-color: #fff;
   color: #1b94a2;
   font-size: 40px; }
