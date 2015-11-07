@@ -63,10 +63,10 @@ $(document).ready(function() {
     // console.log($speechBubbleText.text().length);
     
     //This will be a function that determines the height of the body of the page....then will determine if it should use the scroll animated bar widths. It will do this by calculating the position of the footer...this way it's fluid.
-    var $aboutFooter = $('.about #footer');
-    
-    console.log($aboutFooter.position().top + $aboutFooter.height());
-    console.log($window.height());
+    // var $aboutFooter = $('.about #footer');
+    //
+    // console.log($aboutFooter.position().top + $aboutFooter.height());
+    // console.log($window.height());
     
     // TODO
     // if ($window.height >== $aboutFooter.position().top + $aboutFooter.height()) {
