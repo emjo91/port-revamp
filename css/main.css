@@ -203,7 +203,7 @@ h1.header {
 h1.greeting {
   position: absolute;
   left: 37%;
-  padding: 15px 60px;
+  padding: 15px 32px;
   transform: translateY(120%);
   -webkit-transform: translateY(120%);
   -ms-transform: translateY(120%);
@@ -217,7 +217,7 @@ h1.greeting {
     content: ' ';
     position: absolute;
     top: 85px;
-    left: 100px;
+    left: 60px;
     width: 180px;
     height: 80px;
     background-image: url(../images/small-tail.svg);
@@ -298,7 +298,7 @@ i {
   h1.greeting {
     position: absolute;
     left: 42%;
-    padding: 15px 60px;
+    padding: 15px 50px;
     transform: translateY(80%);
     -webkit-transform: translateY(80%);
     -ms-transform: translateY(80%);
