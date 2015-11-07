@@ -298,18 +298,18 @@ i {
   h1.greeting {
     position: absolute;
     left: 42%;
-    padding: 15px 50px;
-    transform: translateY(80%);
-    -webkit-transform: translateY(80%);
-    -ms-transform: translateY(80%);
+    padding: 15px 40px;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
     border: 2px solid #fff;
     border-radius: 50%;
-    font-size: 55px; }
+    font-size: 45px; }
     h1.greeting:after {
       content: ' ';
       position: absolute;
-      top: 110px;
-      left: 110px;
+      top: 97px;
+      left: 65px;
       width: 180px;
       height: 80px;
       transform: rotate(0deg);
@@ -319,7 +319,14 @@ i {
       background-repeat: no-repeat; } }
 @media screen and (min-width: 565px) {
   h1.greeting {
-    padding: 15px 60px; }
+    padding: 15px 60px;
+    transform: translateY(80%);
+    -webkit-transform: translateY(80%);
+    -ms-transform: translateY(80%);
+    font-size: 55px; }
+    h1.greeting:after {
+      top: 110px;
+      left: 110px; }
 
   #header .guitar-guy {
     transform: translateY(60%);
