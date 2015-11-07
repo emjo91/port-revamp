@@ -55,9 +55,9 @@ $(document).ready(function() {
     // console.log($currentTime);
     
     if ($currentTime >= 1 && $currentTime <= 11) {
-        $speechBubbleText.html('mornin,');
+        $speechBubbleText.html("g'mornin,");
     } else if ($currentTime >= 17 && $currentTime <= 19) {
-        $speechBubbleText.html('evening,');
+        $speechBubbleText.html("evenin',");
     }
     
     // console.log($speechBubbleText.text().length);
